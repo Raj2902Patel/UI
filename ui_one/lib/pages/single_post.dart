@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_one/const/myStyle.dart';
+import 'package:ui_one/const/my_style.dart';
 
 class SinglePost extends StatelessWidget {
   const SinglePost({super.key});

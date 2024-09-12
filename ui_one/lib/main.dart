@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_one/const/myStyle.dart';
+import 'package:ui_one/const/my_style.dart';
 import 'package:ui_one/pages/app_bar.dart';
 import 'package:ui_one/pages/posts.dart';
 import 'package:ui_one/pages/profile_card.dart';
@@ -19,9 +19,9 @@ class Myapp extends StatelessWidget {
         child: Scaffold(
           backgroundColor: mainColor,
           body: ListView(
-            children: [
+            children: const [
               Stack(
-                children: const [
+                children: [
                   MyPosts(),
                   ProfileCard(),
                   AppBarWidget(),
@@ -34,3 +34,6 @@ class Myapp extends StatelessWidget {
     );
   }
 }
+
+
+// Raj Patel
